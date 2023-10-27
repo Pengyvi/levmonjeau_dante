@@ -1,0 +1,66 @@
+body{
+    background-color: #F4F6F3;
+    font-family: "Bellota Text", sans-serif;
+}
+header img{
+    width: 80%;
+}
+img {
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen-con-texto{
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+}
+.imagen-con-texto a{
+    text-decoration: none;
+    color: black;
+}
+.imagen-con-texto img{
+    border-radius: 70px;
+}
+.imagen-texto-container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+    margin-bottom: 100px;
+}
+.galeria h2 {
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 40;
+}
+.imagen-galeria{
+    width: 600px;
+}
+.navegacion {
+    text-align: center;
+}
+.navegacion button {
+    background-color: #C6E3D1;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    margin-bottom: 100;
+}
+.navegacion button:hover {
+    background-color: #98dab1;
+}
+article{
+    margin: 20px;
+}
+footer{
+    background-color: #C6E3D1;
+}
